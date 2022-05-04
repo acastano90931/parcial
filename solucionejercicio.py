@@ -10,17 +10,17 @@ def imprimirRecorrido(arr,n):
       if surtidor < 0:          
         inicio = i+1        
         distancia += surtidor            
-        s = 0            
+        surtidor = 0            
      
  
     return inicio if (surtidor+distancia)>=0 else -1
-   
    
 
 arr = [[4,6], [6,5], [7,3], [4,5]]
 inicio= imprimirRecorrido(arr,4)
 if inicio == -1:
-  print("No Solution Possible !!!")
+  print("!!!")
 else:
-  print("inicio = {}".format(inicio))
+  print("Surtido de Inicio = {}".format(inicio))
  
+##basado en un ejemplo que encontré en el mismo gitHub
